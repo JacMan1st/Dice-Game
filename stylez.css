@@ -1,4 +1,8 @@
 body {
+    background-image: url('./chipwall.jpeg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgba(132, 69, 18, 0.914);
     display: flex;
     flex-direction: row;
@@ -11,15 +15,18 @@ body {
 }
 
 .playerPanel  {
-    background-color: rgba(0, 0, 0, 0.256);
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.289);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column-reverse;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 0px;
+    padding: 90px;
 }
+
 .rollButton {
     background-color: rgba(255, 255, 240, 0.727);
     display: flex;
@@ -28,7 +35,6 @@ body {
     padding: 25px 45px;
     border-radius: 8px;
     box-shadow: 2px 2px 20px black;
-    /* margin-left: 25%; */
     margin-top: 40px;
     font-weight: bold;
     font-size: 32px;
@@ -41,11 +47,14 @@ body {
 }
 
 .container{
-    box-shadow: 0 0 20px black;
+    background-image:  url('./darkwood.jpeg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 80px rgb(46, 0, 0);
     perspective: 1000px;
     perspective-origin: 50% 50%;
     padding-left: 200px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 50vw;
     height: 100vh;
 }
@@ -67,14 +76,12 @@ body {
     height: 100%;
     width: 100%;
     border:2px solid rgba(0, 0, 0, 0.771);
-    /* color: black; */
 }
 .container .cube div span{
     font-size: 32px;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
     border-radius: 25px;
-
 }
 
     /* face positioning */
